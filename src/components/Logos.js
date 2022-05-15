@@ -1,4 +1,3 @@
-import { icon } from "@fortawesome/fontawesome-svg-core";
 import { FaPython as Python } from "react-icons/fa";
 import {
 	GrGraphQl as GraphQL,
