@@ -2,11 +2,14 @@ import { ExternalLinkIcon } from "@heroicons/react/outline";
 
 export default function Example() {
 	return (
-		<div className="relative py-16 bg-white">
+		<div className="relative py-16 bg-white" id="projects">
 			<div
 				className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
 				aria-hidden="true"
 			/>
+			<h3 className="flex justify-center relative text-gray-900 font-mono font-semibold text-2xl p-4">
+				My Work
+			</h3>
 			<div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
 				<div className="lg:grid lg:grid-cols-12">
 					<div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
@@ -105,19 +108,29 @@ export default function Example() {
 								Gif Guesser
 							</h2>
 							<p className="text-lg text-white">
-								Varius facilisi mauris sed sit. Non sed et duis dui leo,
-								vulputate id malesuada non. Cras aliquet purus dui laoreet diam
-								sed lacus, fames.
+								A web game built with React utilizing the Giphy API. You will be
+								given a gif generated from a random word. Your job is to guess
+								what the word is from just the gif.
 							</p>
-							{/* TODO: fix wrap on icon */}
 							<a
-								className="block w-full py-3 px-5 text-center bg-white border border-transparent rounded-md shadow-md text-base font-medium text-indigo-700 hover:bg-gray-50 sm:inline-block sm:w-auto"
-								href="https://gifguesser.com/"
+								className=""
+								href="https://gifguesser.com"
 								target="_blank"
 								rel="noreferrer"
 							>
-								<span>Try it out</span>
-								<ExternalLinkIcon />
+								<div className="flex float-right bg-gray-50 p-4 mt-8 mr-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-100 hover:transition-all">
+									Try it out <ExternalLinkIcon className="w-6" />
+								</div>
+							</a>
+							<a
+								className=""
+								href="https://github.com/MarkusWilliamsDev/Gif-Guesser"
+								target="_blank"
+								rel="noreferrer"
+							>
+								<div className="flex float-right bg-gray-50 p-4 mt-8 mr-8 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-100 hover:transition-all">
+									GitHub <ExternalLinkIcon className="w-6" />
+								</div>
 							</a>
 						</div>
 					</div>

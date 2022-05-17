@@ -17,8 +17,7 @@ export default function Example() {
 							</span>
 						</h1>
 						<h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl w-2xl">
-							{/* TODO: Fix width */}
-							<span className="block xl:inline">
+							<span className="block xl:inline ml-4 mr-4">
 								A developer with an eye for{" "}
 								<span className="text-indigo-600">detail</span>
 							</span>{" "}
@@ -34,7 +33,7 @@ export default function Example() {
 							</div>
 							<div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
 								<a
-									href="/"
+									href="#projects"
 									className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
 								>
 									View work
