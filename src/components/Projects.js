@@ -2,7 +2,7 @@ import { ExternalLinkIcon } from "@heroicons/react/outline";
 
 export default function Example() {
 	return (
-		<div className="relative py-16 bg-white" id="projects">
+		<div className="relative py-16 bg-gray-50" id="projects">
 			<div
 				className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
 				aria-hidden="true"

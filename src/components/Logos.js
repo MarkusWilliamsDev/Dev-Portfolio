@@ -30,7 +30,7 @@ export default function Example() {
 				</h3>
 				<div className="flex justify-center flex-wrap">
 					{logos.map((logo) => (
-						<div className="p-4 m-4 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg cursor-default">
+						<div className="p-4 m-4 w-48 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg cursor-default">
 							{<logo.icon fill="rgb(79, 70, 229)" className="w-full h-12" />}
 							<span className="font-mono text-gray-700 text-lg ">
 								{logo.name}
