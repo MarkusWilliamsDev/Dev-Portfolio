@@ -1,7 +1,7 @@
 {
 	"name": "new-portfolio",
 	"version": "0.1.0",
-	"homepage": "https://markuswilliamsdev.github.io/Portfolio",
+	"homepage": "https://markuswilliamsdev.github.io/Dev-Portfolio",
 	"private": true,
 	"dependencies": {
 		"@fortawesome/fontawesome-svg-core": "^6.1.1",
