@@ -13,14 +13,14 @@ import {
 
 export default function Example() {
 	const logos = [
-		{ icon: GraphQL, name: "GraphQL" },
-		{ icon: Python, name: "Python" },
-		{ icon: GatsbyJS, name: "GatsbyJS" },
+		{ icon: JS, name: "JavaScript" },
 		{ icon: NodeJS, name: "NodeJS" },
 		{ icon: ReactJS, name: "ReactJS" },
-		{ icon: JS, name: "JavaScript" },
-		{ icon: CreativeCloud, name: "Adobe" },
+		{ icon: GatsbyJS, name: "GatsbyJS" },
+		{ icon: GraphQL, name: "GraphQL" },
+		{ icon: Python, name: "Python" },
 		{ icon: Tailwind, name: "Tailwind" },
+		{ icon: CreativeCloud, name: "Adobe" },
 	];
 	return (
 		<div className="bg-gray-50">
@@ -31,8 +31,8 @@ export default function Example() {
 				<div className="flex justify-center flex-wrap">
 					{logos.map((logo) => (
 						<div className="p-6 m-2 sm:m-4 w-36 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg cursor-default">
-							{<logo.icon fill="rgb(79, 70, 229)" className="w-full h-12" />}
-							<span className="font-mono text-gray-700 text-lg">
+							{<logo.icon className="w-full h-12 mb-2 text-indigo-600" />}
+							<span className="font-mono flex justify-center text-gray-700 text-lg">
 								{logo.name}
 							</span>
 						</div>
