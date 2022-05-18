@@ -1,6 +1,6 @@
 import React from "react";
 import ProfilePicture from "../assets/Profile_Picture.PNG";
-import ParticleBackground from "./ParticleBackground";
+import ParticleBackground from "../ParticleBackground";
 
 export default function Example() {
 	return (
