@@ -29,7 +29,7 @@ export default function Contact() {
 				<h3 className="text-center text-gray-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
 					Contact Me
 				</h3>
-				<div className="flex flex-wrap justify-center p-2 lg:bg-indigo-200 lg:rounded-2xl">
+				<div className="flex flex-wrap justify-center p-2">
 					{/* TODO: Resize & animate cards */}
 					{contactLogos.map((contactLogo) => (
 						<a href={contactLogo.href} target="_blank" rel="noreferrer">
