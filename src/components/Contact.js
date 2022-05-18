@@ -15,7 +15,7 @@ export default function Contact() {
 		{
 			icon: Mail,
 			name: "Email",
-			href: "https://www.linkedin.com/in/markus-williams-dev/",
+			href: "mailto:markuswilliamsdev@gmail.com",
 		},
 		{
 			icon: Github,
@@ -33,10 +33,9 @@ export default function Contact() {
 					{/* TODO: Resize & animate cards */}
 					{contactLogos.map((contactLogo) => (
 						<a href={contactLogo.href} target="_blank" rel="noreferrer">
-							<div className="p-6 mx-6 my-4 sm:m-4 w-36 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg">
-								{
-									<contactLogo.icon className="w-full h-12 mb-2 text-indigo-600" />
-								}
+							<div className="p-6 mx-6 my-4 sm:m-4 w-36 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg text-indigo-600 hover:text-indigo-800 transition-colors duration-200 ">
+								{<contactLogo.icon className="w-full h-12 mb-2 " />}
+								<p className="text-center font-medium">{contactLogo.name}</p>
 							</div>
 						</a>
 					))}

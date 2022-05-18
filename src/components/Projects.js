@@ -1,4 +1,5 @@
 import { ExternalLinkIcon } from "@heroicons/react/outline";
+import gif from "../assets/gifGuesser.webp";
 
 export default function Example() {
 	return (
@@ -19,11 +20,9 @@ export default function Example() {
 						/>
 						<div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
 							<div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-								<img
-									className="object-cover object-center rounded-3xl shadow-2xl bg-white"
-									src="https://media.giphy.com/media/CaiVJuZGvR8HK/giphy.gif"
-									alt=""
-								/>
+								<picture>
+									<source srcSet={gif} />
+								</picture>
 							</div>
 						</div>
 					</div>
@@ -122,12 +121,7 @@ export default function Example() {
 									Try it out <ExternalLinkIcon className="w-6" />
 								</div>
 							</a>
-							<a
-								className=""
-								href="https://github.com/MarkusWilliamsDev/Gif-Guesser"
-								target="_blank"
-								rel="noreferrer"
-							>
+							<a href={gif} target="_blank" rel="noreferrer">
 								<div className="flex float-right bg-gray-50 p-4 mt-8 mr-8 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-100 hover:transition-all">
 									GitHub <ExternalLinkIcon className="w-6" />
 								</div>

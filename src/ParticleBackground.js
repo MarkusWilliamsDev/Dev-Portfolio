@@ -22,9 +22,6 @@ export default function ParticleBackground() {
 						resize: true,
 					},
 					modes: {
-						push: {
-							quantity: 4,
-						},
 						repulse: {
 							distance: 200,
 							duration: 0.4,
