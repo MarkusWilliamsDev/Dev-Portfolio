@@ -20,7 +20,7 @@ export default function Example() {
 		{ icon: ReactJS, name: "ReactJS" },
 		{ icon: JS, name: "JavaScript" },
 		{ icon: CreativeCloud, name: "Adobe" },
-		{ icon: Tailwind, name: "TailwindCSS" },
+		{ icon: Tailwind, name: "Tailwind" },
 	];
 	return (
 		<div className="bg-gray-50">
