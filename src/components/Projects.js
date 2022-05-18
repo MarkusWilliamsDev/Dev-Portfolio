@@ -7,7 +7,7 @@ export default function Example() {
 				className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
 				aria-hidden="true"
 			/>
-			<h3 className="flex justify-center relative text-gray-900 font-mono font-semibold text-2xl p-4">
+			<h3 className="flex justify-center relative text-gray-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
 				My Work
 			</h3>
 			<div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
