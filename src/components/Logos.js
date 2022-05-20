@@ -11,7 +11,7 @@ import {
 	SiTailwindcss as Tailwind,
 } from "react-icons/si";
 
-export default function Example() {
+export default function Logos() {
 	const logos = [
 		{ icon: JS, name: "JavaScript" },
 		{ icon: NodeJS, name: "NodeJS" },

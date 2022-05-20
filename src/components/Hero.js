@@ -2,7 +2,7 @@ import React from "react";
 import ProfilePicture from "../assets/Profile_Picture.PNG";
 import ParticleBackground from "../ParticleBackground";
 
-export default function Example() {
+export default function Hero() {
 	return (
 		<div className="relative bg-gray-50/75 overflow-hidden ">
 			<ParticleBackground />
@@ -26,20 +26,20 @@ export default function Example() {
 							</span>
 						</h1>
 						<div className="mt-5 max-w-md mx-auto sm:flex sm:justify-center md:mt-8">
-							<div className="rou  nded-md shadow">
-								<a
-									href="#contact"
-									className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
-								>
-									Get in touch
-								</a>
-							</div>
-							<div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+							<div className="rounded-md shadow">
 								<a
 									href="#projects"
 									className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md text-indigo-600 bg-white hover:bg-gray-50 md:py-4 md:text-lg md:px-10"
 								>
 									View work
+								</a>
+							</div>
+							<div className="mt-3 rounded-md shadow sm:mt-0 sm:ml-3">
+								<a
+									href="#contact"
+									className="w-full flex items-center justify-center px-8 py-3 border border-transparent text-base font-medium rounded-md   text-white bg-indigo-600 hover:bg-indigo-700 md:py-4 md:text-lg md:px-10"
+								>
+									Get in touch
 								</a>
 							</div>
 						</div>
