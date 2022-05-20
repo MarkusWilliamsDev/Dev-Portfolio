@@ -9,7 +9,7 @@ export default function App() {
 		<div>
 			<Hero />
 			<Logos />
-			{/* <Projects /> */}
+			<Projects />
 			<Contact />
 		</div>
 	);
