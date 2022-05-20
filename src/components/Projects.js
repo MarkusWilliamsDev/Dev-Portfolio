@@ -1,134 +1,64 @@
-import { ExternalLinkIcon } from "@heroicons/react/outline";
-import gif from "../assets/gifGuesser.webp";
+import React from "react";
+import gifGuesserLogo from "../assets/gifGuesser.webp";
+import adobe from "./logos/adobecreativecloud.svg";
+import firebase from "./logos/firebase.svg";
+import gatsby from "./logos/gatsby.svg";
+import graphql from "./logos/graphql.svg";
+import javascript from "./logos/javascript.svg";
+import node from "./logos/nodedotjs.svg";
+import python from "./logos/python.svg";
+import react from "./logos/react.svg";
+import tailwind from "./logos/tailwindcss.svg";
 
-export default function Example() {
+export default function Projects() {
+	const allProjects = [
+		{
+			name: "Gif Guesser",
+			github: "https://github.com/MarkusWilliamsDev/Gif-Guesser",
+			link: "https://gifguesser.com/",
+			about:
+				"A web game built with React utilizing the Giphy API. You will be given a gif generated from a random word. Your job is to guess what the word is from just the gif.",
+			logo: gifGuesserLogo,
+			techUsed: [
+				{ name: "ReactJS", logo: react },
+				{ name: "TailwindCSS", logo: tailwind },
+				{ name: "Firebase", logo: firebase },
+			],
+		},
+	];
+
 	return (
-		<div className="relative py-16 bg-gray-50" id="projects">
-			<div
-				className="hidden absolute top-0 inset-x-0 h-1/2 bg-gray-50 lg:block"
-				aria-hidden="true"
-			/>
-			<h3 className="flex justify-center relative text-gray-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
+		<div className="bg-gray-50 relative text-center">
+			<h3 className="text-gray-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
 				My Work
 			</h3>
-			<div className="max-w-7xl mx-auto bg-indigo-600 lg:bg-transparent lg:px-8">
-				<div className="lg:grid lg:grid-cols-12">
-					<div className="relative z-10 lg:col-start-1 lg:row-start-1 lg:col-span-4 lg:py-16 lg:bg-transparent">
-						<div
-							className="absolute inset-x-0 h-1/2 bg-gray-50 lg:hidden"
-							aria-hidden="true"
-						/>
-						<div className="max-w-md mx-auto px-4 sm:max-w-3xl sm:px-6 lg:max-w-none lg:p-0">
-							<div className="aspect-w-10 aspect-h-6 sm:aspect-w-2 sm:aspect-h-1 lg:aspect-w-1">
-								<picture>
-									<source srcSet={gif} />
-								</picture>
+			<div className="">
+				{allProjects.map((project) => (
+					<div>
+						<div className="text-gray-900 font-mono font-semibold text-lg sm:text-2xl p-4">
+							{project.name}
+						</div>
+						<img src={project.logo} className="-top-0" alt="" />
+
+						<a href={project.github} target="_blank" rel="noreferrer">
+							GitHub
+						</a>
+						<a href={project.link} target="_blank" rel="noreferrer">
+							Try it out
+						</a>
+						<div>
+							<h1>Tech Used</h1>
+							<div>
+								{project.techUsed.map((tech) => (
+									<div>
+										{tech.name}
+										<img src={tech.logo} className="w-32" alt="" />
+									</div>
+								))}
 							</div>
 						</div>
 					</div>
-
-					<div className="relative bg-indigo-600 lg:col-start-3 lg:row-start-1 lg:col-span-10 lg:rounded-3xl lg:grid lg:grid-cols-10 lg:items-center">
-						<div
-							className="hidden absolute inset-0 overflow-hidden rounded-3xl lg:block"
-							aria-hidden="true"
-						>
-							<svg
-								className="absolute bottom-full left-full transform translate-y-1/3 -translate-x-2/3 xl:bottom-auto xl:top-0 xl:translate-y-0"
-								width={404}
-								height={384}
-								fill="none"
-								viewBox="0 0 404 384"
-								aria-hidden="true"
-							>
-								<defs>
-									<pattern
-										id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
-										x={0}
-										y={0}
-										width={20}
-										height={20}
-										patternUnits="userSpaceOnUse"
-									>
-										<rect
-											x={0}
-											y={0}
-											width={4}
-											height={4}
-											className="text-indigo-500"
-											fill="currentColor"
-										/>
-									</pattern>
-								</defs>
-								<rect
-									width={404}
-									height={384}
-									fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-								/>
-							</svg>
-							<svg
-								className="absolute top-full transform -translate-y-1/3 -translate-x-1/3 xl:-translate-y-1/2"
-								width={404}
-								height={384}
-								fill="none"
-								viewBox="0 0 404 384"
-								aria-hidden="true"
-							>
-								<defs>
-									<pattern
-										id="64e643ad-2176-4f86-b3d7-f2c5da3b6a6d"
-										x={0}
-										y={0}
-										width={20}
-										height={20}
-										patternUnits="userSpaceOnUse"
-									>
-										<rect
-											x={0}
-											y={0}
-											width={4}
-											height={4}
-											className="text-indigo-500"
-											fill="currentColor"
-										/>
-									</pattern>
-								</defs>
-								<rect
-									width={404}
-									height={384}
-									fill="url(#64e643ad-2176-4f86-b3d7-f2c5da3b6a6d)"
-								/>
-							</svg>
-						</div>
-						<div className="relative max-w-md mx-auto py-12 px-4 space-y-6 sm:max-w-3xl sm:py-16 sm:px-6 lg:max-w-none lg:p-0 lg:col-start-4 lg:col-span-6">
-							<h2
-								className="text-3xl font-extrabold text-white"
-								id="join-heading"
-							>
-								Gif Guesser
-							</h2>
-							<p className="text-lg text-white">
-								A web game built with React utilizing the Giphy API. You will be
-								given a gif generated from a random word. Your job is to guess
-								what the word is from just the gif.
-							</p>
-							<a
-								className=""
-								href="https://gifguesser.com"
-								target="_blank"
-								rel="noreferrer"
-							>
-								<div className="flex float-right bg-gray-50 p-4 mt-8 mr-6 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-100 hover:transition-all">
-									Try it out <ExternalLinkIcon className="w-6" />
-								</div>
-							</a>
-							<a href={gif} target="_blank" rel="noreferrer">
-								<div className="flex float-right bg-gray-50 p-4 mt-8 mr-8 rounded-lg shadow-lg hover:shadow-2xl hover:bg-gray-100 hover:transition-all">
-									GitHub <ExternalLinkIcon className="w-6" />
-								</div>
-							</a>
-						</div>
-					</div>
-				</div>
+				))}
 			</div>
 		</div>
 	);
