@@ -53,10 +53,7 @@ export default function Projects() {
 						My Work
 					</h3>
 
-					<div
-						role="list"
-						className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0"
-					>
+					<div className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						{allProjects.map((project) => (
 							<div key={project.name}>
 								<div className="space-y-4 sm:grid sm:grid-cols-3 sm:gap-6 sm:space-y-0 lg:gap-8">
