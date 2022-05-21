@@ -26,7 +26,7 @@ export default function Contact() {
 	return (
 		<div className="flex bg-gray-50 relative" id="contact">
 			<div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-				<h3 className="text-center text-gray-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
+				<h3 className="text-center text-indigo-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
 					Contact Me
 				</h3>
 				<div className="flex flex-wrap justify-center p-2">
