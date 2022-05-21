@@ -29,19 +29,6 @@ const allProjects = [
 			{ name: "Firebase", logo: firebaseLogo },
 		],
 	},
-	{
-		name: "Gif Guesser",
-		github: "https://github.com/MarkusWilliamsDev/Gif-Guesser",
-		link: "https://gifguesser.com/",
-		about:
-			"A web game built with React utilizing the Giphy API. You will be given a gif generated from a random word. Your job is to guess what the word is from just the gif.",
-		logo: gifGuesserLogo,
-		techUsed: [
-			{ name: "ReactJS", logo: reactLogo },
-			{ name: "TailwindCSS", logo: tailwindLogo },
-			{ name: "Firebase", logo: firebaseLogo },
-		],
-	},
 ];
 
 export default function Projects() {
