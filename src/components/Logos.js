@@ -25,9 +25,9 @@ export default function Logos() {
 	return (
 		<div className="bg-gray-50 relative">
 			<div className="max-w-7xl mx-auto py-12 px-4 sm:px-6 lg:px-8">
-				<h3 className="flex justify-center text-indigo-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
+				<h1 className="flex justify-center text-indigo-900 font-mono font-semibold text-2xl sm:text-4xl p-4">
 					Skilled with
-				</h3>
+				</h1>
 				<div className="flex justify-center flex-wrap text-indigo-800 hover:text-indigo-900 transition-color duration-300">
 					{logos.map((logo) => (
 						<div className="p-6 m-2 sm:m-4 w-36 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg cursor-default">

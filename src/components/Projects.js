@@ -36,9 +36,9 @@ export default function Projects() {
 		<div id="projects" className="relative bg-gray-50">
 			<div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
 				<div className="space-y-12">
-					<h3 className="text-indigo-900 text-center font-mono font-semibold text-2xl sm:text-4xl p-4">
+					<h1 className="text-indigo-900 text-center font-mono font-semibold text-2xl sm:text-4xl p-4">
 						My Work
-					</h3>
+					</h1>
 
 					<div className="space-y-12 lg:grid lg:grid-cols-2 lg:items-start lg:gap-x-8 lg:gap-y-12 lg:space-y-0">
 						{allProjects.map((project) => (
@@ -54,7 +54,7 @@ export default function Projects() {
 									<div className="sm:col-span-2">
 										<div className="space-y-4">
 											<div className="text-lg leading-6 font-medium space-y-1">
-												<h3 className="text-2xl">{project.name}</h3>
+												<h2 className="text-2xl">{project.name}</h2>
 												<div className="flex space-x-4">
 													<a
 														href={project.github}
