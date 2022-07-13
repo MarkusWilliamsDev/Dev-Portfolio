@@ -1,5 +1,5 @@
 import React from "react";
-import ProfilePicture from "../assets/Profile_Picture.PNG";
+import ProfilePicture from "../assets/Profile_No_BG.png";
 import ParticleBackground from "../ParticleBackground";
 
 export default function Hero() {
