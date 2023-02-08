@@ -3,6 +3,7 @@ import {
 	GrLinkedin as Linkedin,
 	GrMail as Mail,
 	GrGithub as Github,
+	GrChat as Text,
 } from "react-icons/gr";
 
 export default function Contact() {
@@ -22,6 +23,11 @@ export default function Contact() {
 			name: "GitHub",
 			href: "https://github.com/MarkusWilliamsDev",
 		},
+		{
+			icon: Text,
+			name: "Text",
+			href: "sms:+17034631373&body=this%20is%20a%20text%20from%20a%20website",
+		},
 	];
 	return (
 		<div className="flex bg-gray-50 relative" id="contact">
@@ -34,7 +40,7 @@ export default function Contact() {
 					{contactLogos.map((contactLogo) => (
 						<a href={contactLogo.href} target="_blank" rel="noreferrer">
 							<div className="p-6 mx-6 my-4 sm:m-4 w-36 sm:w-60 bg-gray-100 rounded-lg drop-shadow-md hover:drop-shadow-lg text-indigo-600 hover:text-indigo-800 transition-colors duration-200 ">
-								{<contactLogo.icon className="w-full h-12 mb-2 " />}
+								{<contactLogo.icon className="w-full h-12 mb-2 fill-current" />}
 								<p className="text-center font-medium">{contactLogo.name}</p>
 							</div>
 						</a>
