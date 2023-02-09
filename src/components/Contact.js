@@ -26,7 +26,7 @@ export default function Contact() {
 		{
 			icon: Text,
 			name: "Text",
-			href: "sms:+17034631373&body=Please work",
+			href: "sms:+17034631373",
 		},
 	];
 
