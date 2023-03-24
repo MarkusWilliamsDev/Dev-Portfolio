@@ -1,16 +1,18 @@
 {
   "files": {
-    "main.css": "/static/css/main.86c11883.css",
-    "main.js": "/static/js/main.cb02f2f7.js",
+    "main.css": "/static/css/main.b4bfbbaa.css",
+    "main.js": "/static/js/main.75a908cd.js",
     "static/js/937.aed23e8e.chunk.js": "/static/js/937.aed23e8e.chunk.js",
+    "static/media/DOE_Logo.png": "/static/media/DOE_Logo.54ad397836b34acd1270.png",
+    "static/media/SABOR_Logo.webp": "/static/media/SABOR_Logo.5d03f9b943ff14eb8c64.webp",
     "static/media/Profile_No_BG.png": "/static/media/Profile_No_BG.5d2279b307b7f2f994af.png",
     "index.html": "/index.html",
-    "main.86c11883.css.map": "/static/css/main.86c11883.css.map",
-    "main.cb02f2f7.js.map": "/static/js/main.cb02f2f7.js.map",
+    "main.b4bfbbaa.css.map": "/static/css/main.b4bfbbaa.css.map",
+    "main.75a908cd.js.map": "/static/js/main.75a908cd.js.map",
     "937.aed23e8e.chunk.js.map": "/static/js/937.aed23e8e.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.86c11883.css",
-    "static/js/main.cb02f2f7.js"
+    "static/css/main.b4bfbbaa.css",
+    "static/js/main.75a908cd.js"
   ]
 }
