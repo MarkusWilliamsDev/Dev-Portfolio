@@ -1,18 +1,19 @@
 import React from "react";
 
-export default function SitecoreLogo() {
+export default function SitecoreLogo({ className }) {
   return (
     <svg
       stroke="currentColor"
       fill="currentColor"
-      stroke-width="0"
+      strokeWidth="0"
       role="img"
       xmlns="http://www.w3.org/2000/svg"
-      className="m-auto w-12 h-12"
+      viewBox="0 0 46 46"
+      className={className}
+      height="1em"
+      width="1em"
     >
-      <g id="Layer_1"></g>
-      <g id="Layer_2"></g>
-      <g id="Layer_3">
+      <g>
         <path d="M24,2C11.85,2,2,11.85,2,24c0,12.151,9.85,22,22,22c12.15,0,22-9.85,22-22C46,11.85,36.15,2,24,2z    M24,40.261c-9.565,0-16.261-7.376-16.261-16.261c0-8.884,7.376-16.261,16.261-16.261c8.884,0,16.301,7.252,16.301,16.137   C40.301,32.76,33.565,40.261,24,40.261z" />
         <path d="M10,29c0,0,1.705,8.903,12,10c10.295,1.097,15-7,15-7l-3-2c0,0-3,6-11,6   C15.336,36,12.145,32.961,10,29z" />
         <path d="M23,35c7,0,11-6,11-6l4,2c2-3,1-9,1-9h-5c0,0,0.768,7.785-8,11c-3.913,1.435-9.174,1.826-13-2   C13,31,15,35,23,35z" />
