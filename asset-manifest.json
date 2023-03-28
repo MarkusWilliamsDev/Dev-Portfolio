@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.86fca1d8.css",
-    "main.js": "/static/js/main.d4a6448f.js",
+    "main.js": "/static/js/main.5990b203.js",
     "static/js/937.aed23e8e.chunk.js": "/static/js/937.aed23e8e.chunk.js",
     "static/media/DOE_Logo.png": "/static/media/DOE_Logo.54ad397836b34acd1270.png",
     "static/media/SABOR_Logo.webp": "/static/media/SABOR_Logo.5d03f9b943ff14eb8c64.webp",
@@ -9,11 +9,11 @@
     "static/media/Healing_Paths_Logo.png": "/static/media/Healing_Paths_Logo.2e0ee5c0a7c6b5bcdbaf.png",
     "index.html": "/index.html",
     "main.86fca1d8.css.map": "/static/css/main.86fca1d8.css.map",
-    "main.d4a6448f.js.map": "/static/js/main.d4a6448f.js.map",
+    "main.5990b203.js.map": "/static/js/main.5990b203.js.map",
     "937.aed23e8e.chunk.js.map": "/static/js/937.aed23e8e.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.86fca1d8.css",
-    "static/js/main.d4a6448f.js"
+    "static/js/main.5990b203.js"
   ]
 }
