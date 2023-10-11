@@ -2,6 +2,7 @@ import React from "react";
 import gifGuesserLogo from "../assets/emoji.png";
 import saborLogo from "../assets/SABOR_Logo.webp";
 import doeLogo from "../assets/DOE_Logo.png";
+import healingPathsLogo from "../assets/Healing_Paths_Logo.png";
 import { GrReactjs as ReactJS, GrGithub as Github } from "react-icons/gr";
 import {
   SiJavascript as JS,
@@ -36,6 +37,13 @@ const allProjects = [
     logo: doeLogo,
     techUsed: [SitecoreLogo, CSharp],
   },
+  {
+    name: "Healing Paths",
+    link: "https://tema.azurewebsites.net/",
+    about: "",
+    logo: healingPathsLogo,
+    techUsed: [ReactJS, CSharp],
+  },
 ];
 
 export default function Projects() {
@@ -43,7 +51,7 @@ export default function Projects() {
     <div id="projects" className="relative bg-gray-50">
       <div className="mx-auto py-12 px-4 max-w-7xl sm:px-6 lg:px-8 lg:py-24">
         <div className="space-y-12">
-          <h1 className="t`ext`-indigo-900 text-center font-mono font-semibold text-2xl sm:text-4xl p-4">
+          <h1 className="text-indigo-900 text-center font-mono font-semibold text-2xl sm:text-4xl p-4">
             My Work
           </h1>
 
