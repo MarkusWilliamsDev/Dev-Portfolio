@@ -8,9 +8,10 @@ export default function App() {
 	return (
 		<div>
 			<Hero />
-			<Logos />
+			<Logos className="bg-slate-300" />
 			<Projects />
 			<Contact />
 		</div>
 	);
 }
+
