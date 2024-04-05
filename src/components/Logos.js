@@ -3,6 +3,7 @@ import {
 	SiJavascript as JS,
 	SiTailwindcss as Tailwind,
 	SiCsharp as CSharp,
+	SiNodedotjs as NodeJS,
 } from "react-icons/si";
 import {
 	TbBrandNextjs as NextJS,
@@ -10,16 +11,19 @@ import {
 } from "react-icons/tb";
 import SitecoreLogo from "./logos/SitecoreLogo";
 import SitecoreSearchLogo from "./logos/SitecoreSearchLogo";
+import SitecoreXMCLogo from "./logos/SitecoreXMCLogo";
 
 export default function Logos() {
 	const logos = [
 		{ icon: JS, name: "JavaScript" },
 		{ icon: TS, name: "TypeScript" },
+		{ icon: NodeJS, name: "NodeJS" },
 		{ icon: ReactJS, name: "ReactJS" },
 		{ icon: NextJS, name: "NextJS" },
 		{ icon: Tailwind, name: "Tailwind" },
 		{ icon: CSharp, name: "C# .NET" },
 		{ icon: SitecoreLogo, name: "Sitecore" },
+		{ icon: SitecoreXMCLogo, name: "Sitecore XM Cloud" },
 		{ icon: SitecoreSearchLogo, name: "Sitecore Search" },
 	];
 	return (

@@ -10,6 +10,7 @@ import {
 	SiTailwindcss as Tailwind,
 	SiCsharp as CSharp,
 	SiFirebase as Firebase,
+	SiNodedotjs as NodeJS,
 } from "react-icons/si";
 import {
 	TbBrandNextjs as NextJS,
@@ -18,6 +19,7 @@ import {
 import { FiExternalLink as LinkIcon } from "react-icons/fi";
 import SitecoreLogo from "./logos/SitecoreLogo";
 import SitecoreSearchLogo from "./logos/SitecoreSearchLogo";
+import SitecoreXMCLogo from "./logos/SitecoreXMCLogo";
 
 const allProjects = [
 	{
@@ -33,7 +35,7 @@ const allProjects = [
 		name: "NACUBO",
 		link: "https://www.nacubo.org/",
 		logo: nacuboLogo,
-		techUsed: [NextJS, TS, SitecoreLogo, SitecoreSearchLogo],
+		techUsed: [NextJS, TS, SitecoreLogo, SitecoreXMCLogo, SitecoreSearchLogo],
 	},
 	{
 		name: "San Antonio Board of Realtors (SABOR)",
@@ -47,7 +49,7 @@ const allProjects = [
 		link: "https://science.osti.gov/Funding-Opportunities/Award",
 		about: "",
 		logo: doeLogo,
-		techUsed: [SitecoreLogo, CSharp],
+		techUsed: [SitecoreLogo, CSharp, NodeJS],
 	},
 	{
 		name: "Healing Paths",
