@@ -4,6 +4,7 @@ import {
 	SiTailwindcss as Tailwind,
 	SiCsharp as CSharp,
 	SiNodedotjs as NodeJS,
+	SiOpenai as OpenAI,
 } from "react-icons/si";
 import {
 	TbBrandNextjs as NextJS,
@@ -22,6 +23,7 @@ export default function Logos() {
 		{ icon: NextJS, name: "NextJS" },
 		{ icon: Tailwind, name: "Tailwind" },
 		{ icon: CSharp, name: "C# .NET" },
+		{ icon: OpenAI, name: "OpenAI" },
 		{ icon: SitecoreLogo, name: "Sitecore" },
 		{ icon: SitecoreXMCLogo, name: "Sitecore XM Cloud" },
 		{ icon: SitecoreSearchLogo, name: "Sitecore Search" },

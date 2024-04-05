@@ -26,14 +26,15 @@ const allProjects = [
 		name: "Gif Guesser",
 		github: "https://github.com/MarkusWilliamsDev/Gif-Guesser",
 		link: "https://gifguesser.com/",
-		about:
-			"A web game built with React utilizing the Giphy API. You will be given a gif generated from a random word. Your job is to guess what the word is from just the gif.",
+		about: "A personal web game built with React utilizing the Giphy API.",
 		logo: gifGuesserLogo,
 		techUsed: [ReactJS, Tailwind, Firebase],
 	},
 	{
 		name: "NACUBO",
-		link: "https://www.nacubo.org/",
+		link: "https://www.nacubo.org/search-results",
+		about:
+			"Utilized Sitecore Search to display over 7,000 pages on the website.",
 		logo: nacuboLogo,
 		techUsed: [NextJS, TS, SitecoreLogo, SitecoreXMCLogo, SitecoreSearchLogo],
 	},
