@@ -13,20 +13,22 @@ import {
 import SitecoreLogo from "./logos/SitecoreLogo";
 import SitecoreSearchLogo from "./logos/SitecoreSearchLogo";
 import SitecoreXMCLogo from "./logos/SitecoreXMCLogo";
+import SitecoreCDPLogo from "./logos/SitecoreCDPLogo";
 
 export default function Logos() {
 	const logos = [
 		{ icon: JS, name: "JavaScript" },
 		{ icon: TS, name: "TypeScript" },
-		{ icon: NodeJS, name: "NodeJS" },
 		{ icon: ReactJS, name: "ReactJS" },
 		{ icon: NextJS, name: "NextJS" },
 		{ icon: Tailwind, name: "Tailwind" },
+		{ icon: NodeJS, name: "NodeJS" },
 		{ icon: CSharp, name: "C# .NET" },
 		{ icon: OpenAI, name: "OpenAI" },
 		{ icon: SitecoreLogo, name: "Sitecore" },
 		{ icon: SitecoreXMCLogo, name: "Sitecore XM Cloud" },
 		{ icon: SitecoreSearchLogo, name: "Sitecore Search" },
+		{ icon: SitecoreCDPLogo, name: "Sitecore CDP" },
 	];
 	return (
 		<div className="bg-gray-50 relative">
